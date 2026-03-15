@@ -91,7 +91,8 @@ li {
 
 .publication-image img {
   width: 100%;
-  height: auto;
+  height: 140px;
+  /* object-fit: cover; */
   border-radius: 10px;
   display: block;
   border: 1px solid #dddddd;
@@ -126,20 +127,29 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+
   .hero {
     flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
   }
 
   .hero-image {
-    width: 200px;
+    width: 180px;
   }
 
   .publication-item {
     flex-direction: column;
+    align-items: center;
   }
 
   .publication-image {
     width: 100%;
     max-width: 320px;
   }
+
+  .publication-content {
+    text-align: left;
+  }
+
 }
