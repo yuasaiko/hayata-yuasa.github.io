@@ -11,19 +11,22 @@
 <body>
   <div class="container">
 
-    <header>
-      <!-- <h1>Yuasa Hayata</h1>
-      <p class="subtitle">早稲田大学 / 森島研究室</p>
-      <img src="images/IMG_0268.jpg" alt="顔写真" class="profile-image"> -->
-      <h1>Yuasa Hayata</h1>
+    <header class="hero">
+      <div class="hero-text">
+        <h1>湯浅 隼大 | Yuasa Hayata</h1>
+        <p class="subtitle">早稲田大学 / 森島研究室</p>
+        <p>
+          早稲田大学で Visual Speech Recognition (VSR) を中心に研究しています。
+          VSRは、深層学習を用いて発話時の口の動きから話されている内容を認識する技術であり、読唇術の自動化とも言えます。
+          VSRは、音声を使用せずに発話内容を認識できるため、さまざま応用が期待されています。
+          しかし、口の動きの曖昧性や口周りの形状・動かし方の個人差の影響により、音声認識と比較して認識精度が低いことが課題となっています。
+          VSRの精度向上を果たし、実用化を促進するために、データ品質の影響や不確実性推定・話者適応の有効性を評価する研究を行っています。
+        </p>
+      </div>
 
-      <p>↓ ここに画像が出るか確認 ↓</p>
-      <img src="./images/IMG_0268.jpg" alt="顔写真" style="width:300px; height:auto; border:2px solid red;">
-
-      <p>ここから下が通常の本文</p>
-      <p>
-        Visual Speech Recognition や Audio-Visual Speech Recognition を中心に研究しています。
-      </p>
+      <div class="hero-image">
+        <img src="./images/IMG_0268_2.jpg" alt="顔写真" class="profile-image">
+      </div>
     </header>
 
     <section>
@@ -39,27 +42,77 @@
       <h2>研究分野</h2>
       <ul>
         <li>Visual Speech Recognition (VSR)</li>
-        <li>Audio-Visual Speech Recognition (AVSR)</li>
         <li>不確実性推定</li>
         <li>話者適応</li>
+        <li>Active Learning</li>
       </ul>
     </section>
 
     <section>
       <h2>研究業績</h2>
-      <ul>
-        <li>湯浅隼大, 田中啓太郎, 森島繁生, "視覚音声認識における不確実性指標を用
-いた単語誤り率推定と話者適応の効率化", 情報処理学会第 88 回全国大会,
-2026.3 (発表), 学生奨励賞受賞</li>
-        <!-- <li>発表タイトルB, Workshop, 2025</li>
-        <li>卒業論文: タイトルC</li> -->
-      </ul>
+
+      <div class="publication-item">
+        <div class="publication-image">
+          <img src="./images/underreview.jpeg" alt="研究業績 teaser">
+        </div>
+
+        <div class="publication-content">
+          <h3>
+            VSRにおけるデータ品質の影響に関する論文
+          </h3>
+          <p class="venue">
+            Submitted to Interspeech 2026
+          </p>
+        </div>
+      </div>
+
+      <div class="publication-item">
+        <div class="publication-image">
+          <img src="./images/underreview.jpeg" alt="研究業績 teaser">
+        </div>
+
+        <div class="publication-content">
+          <h3>
+            VSRにおける不確実性指標と個人適応に関する論文
+          </h3>
+          <p class="venue">
+            Submitted to EUSIPCO 2026
+          </p>
+        </div>
+      </div>
+
+      <div class="publication-item">
+        <div class="publication-image">
+          <img src="./images/ipsj.png" alt="研究業績 teaser">
+        </div>
+
+        <div class="publication-content">
+          <h3>
+            視覚音声認識における不確実性指標を用いた単語誤り率推定と話者適応の効率化
+          </h3>
+          <p class="authors">
+            湯浅隼大, 田中啓太郎, 森島繁生
+          </p>
+          <p class="venue">
+            情報処理学会第88回全国大会, 2026.3
+          </p>
+          <p class="award">
+            学生奨励賞受賞
+          </p>
+        </div>
+      </div>
+
     </section>
 
     <section>
       <h2>連絡先</h2>
       <p>Email: yuasaiko100@gmail.com</p>
-      <p>GitHub: <a href="https://github.com/yuasaiko" target="_blank">https://github.com/yuasaiko</a></p>
+      <p>
+        GitHub:
+        <a href="https://github.com/yuasaiko" target="_blank">
+          https://github.com/yuasaiko
+        </a>
+      </p>
     </section>
 
   </div>
